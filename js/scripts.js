@@ -13,6 +13,11 @@ var img2 = '/img/fullsize/3.jpg';
 // Show Images
 $('header img').attr('src', eval('img' + numRand) );
 
+// Transitions
+$('#custom-transitions').lightGallery({
+    mode: 'lg-slide-circular-vertical'
+})
+
 // Activate Gallery
 $('figure').lightGallery({
     selector: 'a', 
