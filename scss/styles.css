@@ -17,7 +17,7 @@ header {
 }
 
 figure {
-    background: yellow;
+    background: coral;
     padding: 20px;
     width: 30%;
     
@@ -26,6 +26,10 @@ figure {
     justify-content: space-around;
 }
 
+figcaption {
+    font-size: 2em;
+    color: darkturquoise;
+}
 
 .lg-backdrop {
     background: black;
